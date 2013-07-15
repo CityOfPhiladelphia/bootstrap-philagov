@@ -1,6 +1,6 @@
 Bootstrap Phila.gov Theme
 =========================
-Phila.gov style bootstrap theme. This repo exists to keep phila.gov bootstrap sites themes in sync.
+Phila.gov style bootstrap theme. This repo exists to keep phila.gov bootstrap sites themes in sync. Example usage at [avicalculator.phila.gov](http://avicalculator.phila.gov) and [phila.gov/map](http://www.phila.gov/map).
 
 To install in your repo, [use it as a submodule](http://stackoverflow.com/questions/4161022/git-how-to-track-untracked-content):
 
