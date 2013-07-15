@@ -1,12 +1,18 @@
 Bootstrap Phila.gov Theme
 =========================
-Phila.gov style bootstrap theme. This repo exists to keep phila.gov bootstrap sites themes in sync. Clone the repo in your project and `git pull` when there are updates.
+Phila.gov style bootstrap theme. This repo exists to keep phila.gov bootstrap sites themes in sync.
+
+To install in your repo, [use it as a submodule](http://stackoverflow.com/questions/4161022/git-how-to-track-untracked-content):
+
+`git submodule add git://github.com/CityOfPhiladelphia/bootstrap-philagov.git path/to/desired/folder`
+
+(note the public/non-ssh url of the repo, [required for heroku](http://stackoverflow.com/questions/13362288/heroku-push-rejected-submodule-install-failed))
 
 To include the phila.gov navbar,
 
     <div class="navbar navbar-static-top">
         <div class="navbar-inner philagov">
-        	<div class="container">
+            <div class="container">
 				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
